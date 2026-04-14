@@ -1,16 +1,19 @@
-# React + Vite
+# 📋 Employee Attendance System (React CRUD)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A streamlined React application designed to manage employee attendance. This project demonstrates full **CRUD (Create, Read, Update, Delete)** functionality, state management with hooks, and form validation using Regular Expressions.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- **Add Employee:** Register new employees with username and email.
+- **Attendance Tracking:** Mark employees as 'Present' or 'Absent'.
+- **Real-time Validation:** Built-in Regex checks for usernames (min 3 chars) and email formats.
+- **Edit/Update:** Modify existing employee details seamlessly.
+- **Delete:** Remove employee records from the database.
+- **Responsive UI:** Styled with **Tailwind CSS** for a clean, modern look.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- **Frontend:** React.js, Tailwind CSS
+- **HTTP Client:** Axios
+- **Mock Backend:** JSON Server
+- **Build Tool:** Vite
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+demo : ![alt text](demo.jpg)
